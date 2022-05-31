@@ -16,8 +16,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="modal_alert">
+        <div class="messages">
+            <div class="infos">
+                <h3>Você é maior que 18 anos?</h3>
+            </div>
+            <div class="btns">
+                <a href="#" class="btn" id="y">Sim</a>
+                <a href="#" class="btn" id="n">Não</a>
+            </div>
+        </div>
+    </div>
+    <div class="main">
     <section class="header">
-
         <a href="#" class="logo"> <i class="fab fa-reddit-alien"></i>Anarchy whiskey.</a>
 
         <nav class="navbar">
@@ -751,6 +762,7 @@
         <div class="credit"> criado por <span>anarchy. gang developer</span> | Todos os direitos reservados! </div>
 
     </section>
+</div>
 
     
 
@@ -772,6 +784,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
 
 <script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function(){
+            $('.main').css('opacity','0.6');
+           $('.modal_alert').fadeIn();
+           $('#y').click(function(){
+            $('.modal_alert').fadeOut();  
+            $('.main').css('opacity','unset');
+           })
+    })
+</script>
 
 <script>
     lightGallery(document.querySelector('.gallery .gallery-container'));
