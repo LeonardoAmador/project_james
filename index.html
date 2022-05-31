@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Anarchy whiskey</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="header">
+
+        <a href="#" class="logo"> <i class="fab fa-reddit-alien"></i>Anarchy whiskey.</a>
+
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#food">Whiskey</a>
+            <a href="#gallery">Galeria</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Pedido</a>
+            <a href="#blogs">Blog</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+        
+    </section>
+    
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>excelente Whiskey</span>
+                        <h3>Aromas complexos</h3>
+                        <a href="#" class="btn">Iniciar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>excelente Whiskey</span>
+                        <h3>experiência única</h3>
+                        <a href="#" class="btn">Iniciar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <div class="content">
+                        <span>excelente Whiskey</span>
+                        <h3>Rico e elegante</h3>
+                        <a href="#" class="btn">Iniciar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="images/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="title">Bem-vindo a nossa Adega</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate corrupti molestias, nesciunt accusantium veritatis in. Architecto eum ex id beatae recusandae magnam aperiam eveniet velit provident ad, laborum dicta excepturi.</p>
+            <a href="#" class="btn">Leia mais</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="images/about-icon-1.png" alt="">
+                    <h3>Produção</h3>
+                </div>
+                <div class="icons">
+                    <img src="images/about-icon-2.png" alt="">
+                    <h3>Whiskey e drinks</h3>
+                </div>
+                <div class="icons">
+                    <img src="images/about-icon-3.png" alt="">
+                    <h3>Processamento</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="food" id="food">
+
+        <div class="heading">
+            <span>Whiskeys populares</span>
+            <h3>recomendações de Whiskeys</h3>
+        </div>
+
+        <div class="swiper food-slider">
+            
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide slide" data-name="food-1">
+                    <img src="images/foto-4056144-1.webp" alt="">
+                    <h3>WHISKY BUCHANANS </h3>
+                    <div class="price">R$229,90</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-2">
+                    <img src="images/foto-5620643-1.jpg" alt="">
+                    <h3>WHISKY JAPONES YAMAZAKI</h3>
+                    <div class="price">R$984,30</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-3">
+                    <img src="images/foto-5610516-1.webp" alt="">
+                    <h3>WHISKY MACALLAN</h3>
+                    <div class="price">R$4.864,90</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-4">
+                    <img src="images/foto-5610991-1.webp" alt="">
+                    <h3>WHISKY DEWARS 25 ANOS</h3>
+                    <div class="price">R$1.116,20</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-5">
+                    <img src="images/foto-5886585-1.jpg" alt="">
+                    <h3>WHISKY ROYAL SALUTE</h3>
+                    <div class="price">R$1.381,10</div>
+                </div>
+                
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    
+    </section>
+
+
+    <section class="food-preview-container">
+
+        <div id="close-preview" class="fas fa-times"></div>
+
+        <div class="food-preview" data-target="food-1">
+            <img src="images/foto-4056144-1.webp" alt="">
+            <h3>WHISKY BUCHANANS</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas.</p>
+            <div class="price">R$229,90</div>
+            <a href="#" class="btn">Compre agora</a>
+        </div>
+
+        <div class="food-preview" data-target="food-2">
+            <img src="images/foto-5620643-1.jpg"  alt="">
+            <h3>WHISKY JAPONES YAMAZAKI</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas.</p>
+            <div class="price">R$984,30</div>
+            <a href="#" class="btn">Compre agora</a>
+        </div>
+
+        <div class="food-preview" data-target="food-3">
+            <img src="images/foto-5610516-1.webp" alt="">
+            <h3>WHISKY MACALLAN</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas.</p>
+            <div class="price">R$4.864,90</div>
+            <a href="#" class="btn">Compre agora</a>
+        </div>
+
+        <div class="food-preview" data-target="food-4">
+            <img src="images/foto-5610991-1.webp" alt="">
+            <h3>WHISKY DEWARS 25 ANOS</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas.</p>
+            <div class="price">R$1.116,20</div>
+            <a href="#" class="btn">Compre agora</a>
+        </div>
+
+        <div class="food-preview" data-target="food-5">
+            <img src="images/foto-5886585-1.jpg" alt="">
+            <h3>WHISKY ROYAL SALUTE</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas.</p>
+            <div class="price">R$1.381,10</div>
+            <a href="#" class="btn">Compre agora</a>
+        </div>
+
+    </section>
+
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <span>Nossa galeria</span>
+            <h3>nossa história não contada</h3>
+        </div>
+
+        <div class="gallery-container">
+
+            <a href="images/food-galler-img-1.jpg" class="box">
+                <img src="images/food-galler-img-1.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-2.jpg" class="box">
+                <img src="images/food-galler-img-2.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-3.jpg" class="box">
+                <img src="images/food-galler-img-3.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-4.jpg" class="box">
+                <img src="images/food-galler-img-4.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-5.jpg" class="box">
+                <img src="images/food-galler-img-5.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-6.jpg" class="box">
+                <img src="images/food-galler-img-6.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i></div>
+            </a>
+
+        </div>
+        
+    </section>
+
+    <section class="menu" id="menu">
+        
+        <div class="heading">
+            <span>Nosso Menu</span>
+            <h3>Bebidas Renomadas</h3>
+        </div>
+        <div class="swiper menu-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">Whiskey</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Amaderados</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Amaderados</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Amaderados</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Amaderados</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Amaderados</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Amaderados</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">Whiskey</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Agridoce</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Agridoce</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Agridoce</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Agridoce</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Agridoce</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Agridoce</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">Whiskey</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Esfumaçado</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Esfumaçado</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Esfumaçado</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Esfumaçado</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Esfumaçado</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Esfumaçado</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">Vinhos</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Vinho Tinto</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Vinho Branco</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Vinho seco</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Vinho doce</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Vinho rosé</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Vinho licoroso</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Espumante</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="swiper-slide slide">
+                    <h3 class="title">Conhaques</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Cognac</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Armagnac</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Brandy</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3> Grappa </h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Calvados</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Courvoisier</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, distinctio.</p>
+                            </div>
+                            <div class="price">R$79.89</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <section id="order" class="order">
+
+        <div class="heading">
+            <span>Peça Agora</span>
+            <h3>Whiskey delivery</h3>
+        </div>
+
+        <form action="">
+            <div class="box-container">
+                <div class="box">
+                    <div class="inputBox">
+                        <span>Nome completo</span>
+                        <input type="text" placeholder="Digite seu nome">
+                    </div>
+                    <div class="inputBox">
+                        <span>Nome da bebida</span>
+                        <input type="text" placeholder="Bebida desejada">
+                    </div>
+                    <div class="inputBox">
+                        <span>detalhes do pedido</span>
+                        <input type="text" placeholder="Especificações da bebida">
+                    </div>
+                    <div class="inputBox">
+                        <span>Seu endereço</span>
+                        <textarea name="" placeholder="Digite seu endereço" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inputBox">
+                        <span>Número</span>
+                        <input type="number" placeholder="Digite seu número">
+                    </div>
+                    <div class="inputBox">
+                        <span>Quanto</span>
+                        <input type="number" placeholder="Quantos você quer">
+                    </div>
+                    <div class="inputBox">
+                        <span>Quando você quer</span>
+                        <input type="datetime-local">
+                    </div>
+                    <div class="inputBox">
+                        <span>Nosso endereço</span>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2232.5530612007274!2d-3.169721884181443!3d55.9744468806132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c7f2cf266291%3A0x8b9de4f3b20a78fc!2sEscocia%20Tours!5e0!3m2!1spt-BR!2sbr!4v1652998375257!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Peça agora" class="btn">
+        </form>
+
+    </section>
+
+
+    <section class="blogs" id="blogs">
+
+        <div class="heading">
+            <span>nossos blogs</span>
+            <h3>Nossos últimos posts</h3>
+        </div>
+
+        <div class="swiper blogs-slider">
+
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-1.jpg" alt="">
+                        <span>Whiskey</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 21/05/2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">O título do blog vai aqui</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, harum?</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-2.jpg" alt="">
+                        <span>Whiskey</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 21/05/2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">O título do blog vai aqui</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, harum?</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-3.jpg" alt="">
+                        <span>Whiskey</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 21/05/2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">O título do blog vai aqui</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, harum?</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-4.jpg" alt="">
+                        <span>Whiskey</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 21/05/2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">O título do blog vai aqui</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, harum?</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-5.jpg" alt="">
+                        <span>Whiskey</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 21/05/2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">O título do blog vai aqui</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, harum?</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-6.jpg" alt="">
+                        <span>Whiskey</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 21/05/2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">O título do blog vai aqui</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, harum?</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>Horário de abertura</h3>
+                <p>06:00 às 00:00</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>Telefone</h3>
+                <p>+999-666-6667</p>
+                <p>+999-777-7776</p>
+            </div>
+            
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>anharchy@gmail.com</p>
+                <p>xanarchygang@gmail.com</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3>endereço</h3>
+                <p>XXXX, Coreia do Norte</p>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+
+        <div class="credit"> criado por <span>anarchy. gang developer</span> | Todos os direitos reservados! </div>
+
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
